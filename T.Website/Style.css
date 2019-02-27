@@ -1,0 +1,76 @@
+a {
+    color:rgb(52, 250, 217);
+    font-size: 24px;
+    font-family: calibri;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+li {
+    float: right;
+}
+ul {
+    background-color: grey;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.active {
+    background-color: #b9b9b9;
+}
+p {
+    font-size: 22px;
+    font-family: Calibri;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    background-color:grey;
+
+}
+#footText {
+    color: rgb(52, 250, 217);
+}
+
+#waterforest {
+    background-image: url(images/waterforest.jpg)
+}
+#AquaBck2 {
+    background-image: url(images/AquaBck2.jpg)
+}
+#AquaBck3 {
+    background-image: url(images/AquaBck3.jpg)
+}
+#AquaBck4 {
+    background-image: url(images/AquaBck4.jpg)
+}
+#shadow {
+    background-image: url(images/shadow.jpg)
+}
+.picBackdrop {
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    margin: 0;
+    padding: 250px 10px;
+    height: 60px;
+    text-align: center;
+    font-size: 80px;
+    color: greenyellow;
+    font-family: calibri;
+
+
+
+}
