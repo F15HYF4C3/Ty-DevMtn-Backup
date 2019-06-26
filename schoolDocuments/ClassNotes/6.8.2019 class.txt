@@ -1,0 +1,164 @@
+http://www.devcodebar.com/wizard/veryjoshua@gmail.com/5b3599f74003d502d243de7a/Q1
+
+Question 1
+```function stuff (nums){
+  return nums.reduce((r, e)=>{
+    r+=e;
+    return r
+  }, 0)
+}```
+
+Question 2
+function greaterThanTen (nums){
+  return nums.filter((e)=>{
+    return e > 10;
+  })
+}
+
+Question 3
+function spliceReplace (arr, index) {
+  arr.splice(index, 1, 'replaced')
+  return arr
+}
+
+Question 4
+function hasIt (arr, str){
+  return arr.includes(str)
+}
+
+Question 5
+function capitalize (arr) {
+  return arr.map((e)=>{
+    return e.toUpperCase()
+  })
+
+
+HTML SETUP:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="example">
+        <h1 id="thing">Hello World</h1>
+        <h2>Hello Country</h2>
+        <button onclick="doSomething()">Do somthing</button>
+    </div>
+    
+</body>
+<script>
+    function doSomething(){
+        document.getElementById('thing').classList.add('myAnimation')
+    }
+</script>
+</html>
+
+@MEDIA QUERIES
+body{
+    margin: 0px;
+}
+.example{
+    background: #6aaff0;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    transition: background 3s;
+}
+h1, h2{
+    margin: 0px;
+    color: white;
+    font-family: sans-serif;
+}
+
+h2{
+    display: none;
+}
+/* when screen width is less than or equal to 600px these styles will be applied.  */
+@media (max-width: 600px) {
+    .example {
+      background-color: #f7af29;
+    }
+    h1{
+        display: none;
+    }
+    h2{
+        display: block;
+    }
+  }
+/* when screen width is greater than 800px these styles will be applied */
+@media (min-width: 800px) {
+    .example {
+      background-color: #d529f7;
+    }
+  }
+
+@KEYFRAME QUERIES
+body{
+    margin: 0px;
+}
+.example{
+    background: #6aaff0;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    transition: background 3s;
+}
+
+h1, h2{
+    margin: 0px;
+    color: white;
+    font-family: sans-serif;
+}
+/* set up keyframe and use it with animation https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp */
+.myAnimation{  
+    animation:myKeyFrame 5s infinite;
+}
+button{
+    position: absolute;
+    bottom: 40px;
+}
+@keyframes myKeyFrame {
+    from {
+        font-size: 30px;
+        color:white;
+        transform: rotate(0deg)
+    }
+    to {
+        font-size: 130px;
+        color: pink;
+        transform: rotate(360deg)
+    }
+}
+
+h2{
+    display: none;
+}
+/* when screen width is less than or equal to 600px these styles will be applied.  */
+@media (max-width: 600px) {
+    .example {
+      background-color: #f7af29;
+    }
+    h1{
+        display: none;
+    }
+    h2{
+        display: block;
+    }
+  }
+/* when screen width is greater than 800px these styles will be applied */
+@media (min-width: 800px) {
+    .example {
+      background-color: #d529f7;
+    }
+  }
+}
+
+Question 6
+function sortNums (arr) {
+  return arr.sort((a, b)=> b - a)
+}

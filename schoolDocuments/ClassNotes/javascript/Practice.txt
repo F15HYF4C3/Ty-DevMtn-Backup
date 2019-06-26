@@ -1,0 +1,61 @@
+// Nouns, adjectives, verbs
+///Basic Data Types: '', ``, "", ;///string
+10, 11, 120 //Numbers
+   /// ====> Int, Float
+   true, false //booleans
+   null, undefined, NaN //no value (valueless)
+   NaN /// Not a Number
+// Tyra
+const tyra = {
+    height: '5`5.5',
+    weight: '188',
+    eyeColor: 'brown',
+    age: 23,
+    birthday: '11/03/2019',
+    email: 'tnm@gmail.com',
+    isFemale: true,
+    isMale: false,
+    livesInUSA: true,
+}
+
+myFamMem[
+    {
+        name: "jordan",
+        age: 22,
+        relation: "BF"
+    },
+    {
+        name: "Lyric",
+        age: 22,
+        relation: "BFF"
+    }
+]
+console.log(tyra)
+console.log(tyra.age)
+//Function types
+const myFunc = function() {
+const differenceInAge = tyra.age - tyra.myFamMem[0].age;
+
+}; //es5
+console,log(differenceInAge);
+
+const myOtherFunc = () => {
+
+}; //es6
+
+
+var age = "TBD";
+
+function findCorrectTransportation(){
+    if age => 3 || age <= 7 {
+     return "tricycle"},
+     
+    else if age => 8 || age <= 15 {
+    return ("bicycle")},
+       
+    else if (age === 16 || age > 16) {
+    return ("car")}
+
+}
+
+console.log(findCorrectTransportation[8]);

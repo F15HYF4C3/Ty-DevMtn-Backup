@@ -1,0 +1,19 @@
+var people = [{
+obj1: {
+  name: "Tyra",
+  gender: "F",
+  height: 5.5
+  }
+},
+obj2: {
+  name: "Jordan",
+  gender: "M",
+  height: 6.1
+  }
+  },
+obj3: {
+  name: "Jane",
+  gender: "F",
+  height: 6
+  }
+}];

@@ -1,0 +1,11 @@
+function count31() {
+    var numbers = [];
+   for(var i = 0; i < 31; i++){
+     numbers.push(i + 1);
+   } 
+    // code here
+    
+    return numbers;
+  }
+  var array = count31();
+  console.log(array);
